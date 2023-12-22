@@ -1,0 +1,75 @@
+@media(max-width: 600px) {
+    .hide-small {
+        display: none;
+    }
+
+    .hide-large {
+        display: block;
+    }
+
+    #members {
+        flex-direction: column;
+    }
+
+    #members .member {
+        width: 100%;
+    }
+
+    #place-list { 
+        flex-direction: column;
+    }
+
+    #place-list .place-item {
+        width: 100%;
+    }
+
+    .margin-bottom {
+        margin-bottom: 15px;
+    }
+
+    #contact-section {
+        flex-direction: column;
+    }
+
+    #contact-section .contact-item {
+        width: 100%;
+    }
+
+    #contact-section .personal-info-form {
+        flex-direction: column;
+    }
+
+    #contact-section .personal-info-input {
+        width: 100%;
+    }
+
+    #modal {
+        padding-top: 50px;
+    }
+
+    #modal-container {
+        width: calc(100% - 20px);
+    }
+}
+
+@media (min-width: 601px) {
+    .hide-menu-nav {
+        display: none!important;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+    #modal {
+        padding-top: 50px;
+    }
+
+    #modal-container {
+        width: 500px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 993px) {
+    #modal-container {
+        width: 600px;
+    }
+}
